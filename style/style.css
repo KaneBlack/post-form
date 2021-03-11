@@ -1,0 +1,38 @@
+body * {
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.input-wrap {
+    margin-bottom: 10px;
+}
+
+.input-wrap label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.input-wrap input, .button-wrap button {
+    font-size: 16px;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+.button-wrap {
+    margin-top: 20px;
+}
+
+.button-wrap button {
+    display: block;
+    background: rgb(1, 1, 175);
+    color: #fff;
+    border: none;
+    text-transform:uppercase;
+    cursor: pointer;
+    transition: background 300ms ease-out;
+}
+
+.button-wrap button:hover {
+    background: blue;
+}

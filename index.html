@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post Form</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <h1>Post</h1>
+    <form action="POST">
+        <div class='input-wrap'>
+            <label for="name">Your name</label>
+            <input type="text" name='name' id='name' placeholder='Name'>
+        </div>
+        <div class='input-wrap'>
+            <label for="mail">Your mail</label>
+            <input type="text" name='mail' id='mail' placeholder='Mail'>
+        </div>
+        <div class='button-wrap'>
+            <button>submit!</button>
+        </div>
+    </form>
+    <script src="./js/script.js"></script>
 </body>
 </html>
