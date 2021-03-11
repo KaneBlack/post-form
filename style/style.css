@@ -36,3 +36,10 @@ body * {
 .button-wrap button:hover {
     background: blue;
 }
+
+.status {
+    display: block;
+    width: 200px;
+    margin-top: 10px;
+    text-align: center;
+}
